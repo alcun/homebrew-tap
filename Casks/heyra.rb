@@ -12,11 +12,5 @@ cask "heyra" do
 
   app "Heyra.app"
 
-  # Signed but not notarized yet, so lift the download quarantine that would
-  # make macOS refuse to open it.
-  postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Heyra.app"]
-  end
-
   zap trash: "~/Library/Application Support/Heyra"
 end
