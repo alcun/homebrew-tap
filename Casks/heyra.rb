@@ -1,6 +1,6 @@
 cask "heyra" do
-  version "0.3.10"
-  sha256 "f7ab9b53ffce9fece7ff42755463c3a4fe4c54eeae4277a0807ccf32c626ce0a"
+  version "0.3.11"
+  sha256 "4d57d99946435a3fecb01ed3428a844c61d1a5297cb91349906059549bd4f46a"
 
   url "https://github.com/alcun/heyra-desktop/releases/download/v#{version}/Heyra.zip"
   name "Heyra"
